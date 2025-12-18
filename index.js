@@ -39,7 +39,7 @@ app.use(cors());
 
 app.use("/uploads", express.static("uploads"));
 
-// Unified Routes
+//   Routes
 app.use("/", require("./router/routes"));
 
 // Error Handler
